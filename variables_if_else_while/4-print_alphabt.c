@@ -11,7 +11,7 @@ int main(void)
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		if (letter != 'q' && letter != 'e')
+		if (alphabet != 'q' && alphabet != 'e')
 		{
 		putchar(alphabet);
 		}
