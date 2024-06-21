@@ -19,7 +19,7 @@ void time_table(void)
 	{
 		for (row = '0'; row <= '9'; row++)
 		{
-			result = row * colum;
+			result = row * column;
 			left = result / 10;
 			right = result % 10;
 
