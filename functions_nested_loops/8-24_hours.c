@@ -16,7 +16,7 @@ void jack_bauer(void)
 	{
 		for (m = 0; m <= 59; m++)
 		{
-			write("%02i:%02i", h, m);
+			write("%02d:%02d", h, m);
 		}
 	}
 }
