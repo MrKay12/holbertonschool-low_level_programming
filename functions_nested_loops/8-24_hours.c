@@ -16,7 +16,7 @@ void jack_bauer(void)
 	{
 		for (m = 0; m <= 59; m++)
 		{
-			printf("%i:%i", h, m);
+			_putchar("%i:%i", h, m);
 		}
 	}
 }
