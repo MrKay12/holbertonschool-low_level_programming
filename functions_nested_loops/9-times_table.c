@@ -23,7 +23,7 @@ void times_table(void)
 			left = result / 10;
 			right = result % 10;
 
-			if (row * column < 10)
+			if (row * column < '9')
 			{
 				_putchar('0' + right);
 				_putchar(',');
