@@ -15,17 +15,17 @@ void times_table(void)
 	int left;
 	int right;
 
-	for (column = '0'; column <= '9'; column++)
+	for (column = 0; column <= 9; column++)
 	{
-		for (row = '0'; row <= '9'; row++)
+		for (row = 0; row <= 9; row++)
 		{
 			result = row * column;
 			left = result / 10;
 			right = result % 10;
 
-			if (row * column < '9')
+			if (row * column < 10)
 			{
-				_putchar('0' + right);
+				_putchar('0' + result);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
