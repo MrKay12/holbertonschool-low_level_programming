@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* time_table - Entry point
+* times_table - Entry point
 *
 * Return: Always 0.
 */
