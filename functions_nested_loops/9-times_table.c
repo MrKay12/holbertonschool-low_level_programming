@@ -23,19 +23,22 @@ void times_table(void)
 			left = result / 10;
 			right = result % 10;
 
+			if (row == 0)
+				_putchar('0');
+
 			if (row * column < 10)
 			{
-				_putchar('0' + result);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+				_putchar('0' + result);
 			}
 			else
 			{
-				_putchar('0' + left);
-				_putchar('0' + right);
 				_putchar(',');
 				_putchar(' ');
+				_putchar('0' + right);
+				_putchar('0' + left);
 			}
 		}
 		_putchar('\n');
