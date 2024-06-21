@@ -27,7 +27,7 @@ void time_table(void)
 		{
 			if (row * column  <  10)
 			{
-				_putchar('0' + right)
+				_putchar('0' + right);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
