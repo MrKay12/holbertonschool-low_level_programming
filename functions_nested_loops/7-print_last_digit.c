@@ -13,9 +13,6 @@ int print_last_digit(int n)
 {
 	int i;
 
-	srand(time(0));
-	n =  rand() - RAND_MAX / 2;
-
 	i = n % 10;
 
 	_putchar(i);
