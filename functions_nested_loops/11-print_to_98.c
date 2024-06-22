@@ -2,27 +2,23 @@
 #include "main.h"
 
 /**
-* add - Entry point
+* print_to_98 - Entry point
 * @n : input
-* 
+*
 * Return: Always 0.
 */
 
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
+	int a;
+
+	for (a = n ; i < 98 ; a++)
 	{
-		if (n == 98)
-		{
-			printf("%d, ", n);
-		}
-
-		else if (n < 98; n--)
-		{
-			printf("%d, ", n);
-		}
-
-		else
-			printf("%d, ", n);
+		printf("%d, ", a);
 	}
+	for (a = n ; i > 98 ; a--)
+		printf("%d, ", a);
+	}
+	printf("98");
+	printf("\n");
 }
