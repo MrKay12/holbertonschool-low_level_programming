@@ -22,8 +22,12 @@ int main(void)
 		else if (a % 5 == 0)
 			printf("Buzz ");
 
+		else if (a != 100)
+			printf(" ");
+
 		else
 			printf("%i ", a);
+
 	}
 	return (0);
 }
