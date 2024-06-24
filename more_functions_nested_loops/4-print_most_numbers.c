@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_most_numbers - Entry point
@@ -17,5 +18,5 @@ void print_most_numbers(void)
 			_putchar(i);
 		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
