@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* add - Entry point
+* mul - Entry point
 * @a : first input
 * @b : 2nd one
 * Return: Always 0.
