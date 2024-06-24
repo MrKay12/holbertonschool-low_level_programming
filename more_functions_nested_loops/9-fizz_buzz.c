@@ -23,6 +23,6 @@ int main(void)
 			printf("FizzBuzz ");
 
 		else
-			printf("%i ", a)
+			printf("%i ", a);
 	}
 }
