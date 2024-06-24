@@ -4,6 +4,7 @@
 /**
  * print_square - check the code
  *
+ * @size : input
  * Return: Always 0.
  */
 
