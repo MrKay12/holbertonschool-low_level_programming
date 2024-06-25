@@ -14,6 +14,6 @@ int _strlen(char *s)
 {
 	int a = strlen(*s);
 
-	_putchar("Length of %s = %d\n", name, length);
+	_putchar("Length of %s = %d\n", *s, a);
 	return (0);
 }
