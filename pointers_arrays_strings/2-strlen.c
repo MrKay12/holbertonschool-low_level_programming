@@ -12,7 +12,7 @@
 
 int _strlen(char *s)
 {
-	int a = strlen(*s);
+	int a = strlen(char *s);
 
 	_putchar("Length of %s = %d\n", *s, a);
 	return (0);
