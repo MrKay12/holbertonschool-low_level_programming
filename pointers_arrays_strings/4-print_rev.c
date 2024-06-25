@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- *  print_rev - fonction
+ * print_rev - fonction
  *
- *  @s: input
+ * @s: input
  *
- *  Return: always 0
+ * Return: always 0
  */
 
 void print_rev(char *s)
@@ -15,9 +15,11 @@ void print_rev(char *s)
 	int length = 0 ;
 
 
-	for (a = 0 ; str[a] != '\0' ; a++)
-	{
-		for (a = length - 1; a >= 0 ; a--)
+	for (a = 0 ; s[a] != '\0' ; a++)
+		lenght++;
+
+	lenght--;
+	for (a = length - 1; a >= 0 ; a--)
 		{
 			_putchar(str[a]);
 		}
