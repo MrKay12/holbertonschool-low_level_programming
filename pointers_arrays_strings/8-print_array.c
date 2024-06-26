@@ -2,21 +2,28 @@
 #include "main.h"
 
 /**
- * print_array - function
- *
- * @a: 1st input
- * @b: 2nd input
- *
- * Return: Always 0
- */
+* print_array - function
+*
+* @a: pointer
+* @n: input
+*
+* Return: Always 0
+*/
 
 void print_array(int *a, int n)
 {
 	int b;
 
-	for (b = 0; a < n; a++)
+	for (b = 0; b < n; b++)
 	{
-		_putchar("%d", *(arr + a));
+		if (b < n)
+		{
+
+			print("%i, ", a[b]);
+		}
+
+		else
+			printf("%i", a[b];
+	printf("\n");
 	}
-	_putchar('\n');
 }
