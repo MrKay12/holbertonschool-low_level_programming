@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 {
 	int b;
 
-	for (b = 0; i < n; a++)
+	for (b = 0; a < n; a++)
 	{
 		_putchar("%d", *(arr + a));
 	}
