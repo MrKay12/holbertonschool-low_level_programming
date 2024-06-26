@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-void rev_string(char *s)
+void puts_half(char *str)
 {
 	int a;
 	int length = 0;
