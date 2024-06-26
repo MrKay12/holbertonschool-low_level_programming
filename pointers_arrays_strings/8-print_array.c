@@ -19,11 +19,11 @@ void print_array(int *a, int n)
 		if (b < n)
 		{
 
-			print("%i, ", a[b]);
+			printf("%i, ", a[b]);
 		}
 
 		else
-			printf("%i", a[b];
+			printf("%i", a[b]);
 	printf("\n");
 	}
 }
