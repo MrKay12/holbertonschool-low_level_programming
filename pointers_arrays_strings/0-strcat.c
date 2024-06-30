@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - function
+ * _strcat - function
  *
  * @dest: 1st pointer
  * @src: 2nd pointer
@@ -9,12 +9,12 @@
  * Return: Always 0
  */
 
-char *_strncat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *i = dest;
 
-	while (*d) d++;
-	while ((*d++ = *src++));
+	while (*i) d++;
+	while ((*i++ = *src++));
 
 	return dest
 }
