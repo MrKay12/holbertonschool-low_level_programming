@@ -13,8 +13,8 @@ char *_strcat(char *dest, char *src)
 {
 	char *i = dest;
 
-	while (*i) d++;
+	while (*i) i++;
 	while ((*i++ = *src++));
 
-	return dest
+	return dest;
 }
