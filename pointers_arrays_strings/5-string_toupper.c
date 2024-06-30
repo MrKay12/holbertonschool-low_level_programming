@@ -10,14 +10,14 @@
 
 char *string_toupper(char *str)
 {
+	char *i = str;
 
-	for (char *i = str; *i; i++)
+	while (*i)
 	{
-		if (*i >= 'a' && *i <= 'z')
-		{
-			*i -= 3;
-		}
+		*i = (*i >= 'a' && *i <= 'z') ? *i - 32 : *i;
+		i++;
 	}
 
 	return (str);
+
 }
