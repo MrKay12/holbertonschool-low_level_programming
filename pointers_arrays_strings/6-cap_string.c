@@ -8,7 +8,7 @@
  * Return: Always 0
  */
 
-int *cap_string(char *s)
+char *cap_string(char *s)
 {
 	*s = 98;
 	return (0);
