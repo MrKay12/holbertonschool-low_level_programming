@@ -1,17 +1,14 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _atoi - check the code
- *
- * Description: print
+ * cap_string - function
  *
  * @s: input
  *
  * Return: Always 0
  */
 
-int _atoi(char *s)
+int *cap_string(char *s)
 {
 	*s = 98;
 	return (0);
