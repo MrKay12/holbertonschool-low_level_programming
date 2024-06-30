@@ -12,11 +12,11 @@ char *string_toupper(char *str)
 {
 	char *i;
 
-	for (*p = str; *p; p++)
+	for (*i = str; *p; p++)
 	{
-		if (*p >= 'a' && *p <= 'z')
+		if (*i >= 'a' && *i <= 'z')
 		{
-			*p -= 3;
+			*i -= 3;
 		}
 	}
 
