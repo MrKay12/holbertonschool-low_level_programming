@@ -1,17 +1,14 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _atoi - check the code
+ * leet - function
  *
- * Description: print
- *
- * @s: input
+ * @s: pointer
  *
  * Return: Always 0
  */
 
-int _atoi(char *s)
+char *leet(char *s)
 {
 	*s = 98;
 	return (0);
