@@ -15,6 +15,11 @@ char *_strstr(char *haystack, char *needle)
 	char *h = haystack;
 	char *n = needle;
 
+	if (!needle)
+	{
+		return (haystack);
+	}
+
 	while (*haystack)
 	{
 		while (*h && (*h == *n))
@@ -25,7 +30,7 @@ char *_strstr(char *haystack, char *needle)
 
 		if (!n)
 		{
-			return haystack;
+			return (haystack);
 		}
 
 		haystack++;
