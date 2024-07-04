@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-unsigned int _strspn(char s, characcept)
+unsigned int _strspn(char *s, char *accept)
 {
     unsigned int i, j, further = 0, length = 0, newLength = 0, stillGoing = 0;
 
