@@ -22,6 +22,8 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
+		n = needle;
+
 		while (*h && (*h == *n))
 		{
 			h++;
