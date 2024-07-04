@@ -31,6 +31,7 @@ char *_strstr(char *haystack, char *needle)
 
 			if (*n == '\0')
 			{
+				haystack++;
 				return (haystack);
 			}
 		}
