@@ -17,7 +17,6 @@ unsigned int _strspn(char *s, char *accept)
     {
         for (j = further ; accept[j] != '\0' ; j++)
         {
-            printf("%c, ", accept[j]);
             if (s[i] == accept[j])
             {
                 further = j;
@@ -30,7 +29,6 @@ unsigned int _strspn(char *s, char *accept)
                 }
                 stillGoing = i;
                 newLength++;
-                printf("\n");
                 break;
             }
         }
