@@ -9,26 +9,7 @@
  * Return: Always 0
  */
 
-unsigned int _strspn(char *s, char *accept)
-{
-	int i = 0;
-	unsigned int j = 0;
-
-	while (*s)
-	{
-
-		while (*accept)
-		{
-			if (*s == *accept)
-			{
-				i = 1;
-				break;
-			}
-
-			accept++;
-		}
-
-		if (!i)unsigned int _strspn(char s, characcept)
+unsigned int _strspn(char s, characcept)
 {
     unsigned int i, j, further = 0, length = 0, newLength = 0, stillGoing = 0;
 
@@ -62,14 +43,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
     }
 	return (length);
-}
-		{
-			break;
-		}
-
-		j++;
-		s++;
-	}
-
-	return (j);
 }
