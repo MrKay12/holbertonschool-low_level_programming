@@ -38,7 +38,7 @@ unsigned int _strspn(char *s, char *accept)
 
 			if (newLength > length)
 				length = newLength;
-				newLength = 0;
+			newLength = 0;
 		}
 	}
 	return (length);
