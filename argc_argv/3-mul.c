@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	
+
 	num = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	result = num * num2;
