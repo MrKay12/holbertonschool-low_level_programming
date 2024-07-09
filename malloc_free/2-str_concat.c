@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 /**
- * _strdup - begining
+ * str_concat - function
  *
- * Description: print if negative or positive
+ * @s1: 1st pointers
+ * @s2: 2nd pointer
  *
- * @str: sting
- *
- * Return: 0 ends the program
+ * Return: Always 0
  */
 
 char *str_concat(char *s1, char *s2)
@@ -20,17 +19,17 @@ char *str_concat(char *s1, char *s2)
 	unsigned int l = 0;
 	char *s;
 
-	for (i = 0; s1 && s1[i] !='\0'; i++)
+	for (i = 0; s1 && s1[i] != '\0'; i++)
 		k++;
 
-	for (i = 0; s2 && s2[i] !='\0'; i++)
+	for (i = 0; s2 && s2[i] != '\0'; i++)
 		l++;
 
 	s = (char *)malloc((k + l + 1) * sizeof(char));
 
 	if (s == NULL)
 		return (NULL);
-	
+
 	for (i = 0; i < k; i++)
 		s[i] = s1[i];
 
