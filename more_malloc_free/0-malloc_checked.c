@@ -4,10 +4,9 @@
 #include <stddef.h>
 
 /**
- * free_grid - funtion
+ * malloc_checked - funtion
  *
- * @grid: pointer
- * @height: var
+ * @b: input
  *
  *Return: Always 0
  */
