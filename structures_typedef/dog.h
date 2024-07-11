@@ -1,6 +1,16 @@
 #ifndef dog_h
 #define dog_h
 
+/**
+ * struct dog - definition
+ *
+ *@name: read
+ *@age: the
+ *@owner: @
+ *
+ *Return: Always 0
+ */
+
 typedef struct dog
 {
 	char *name;
