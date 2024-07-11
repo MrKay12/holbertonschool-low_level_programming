@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - function
+ * array_range - function
  *
  * @min: 1st input
  * @max: 2nd input
@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 
 	j = max - min + 1;
 
-	s= malloc(j * sizeof(int));
+	s = malloc(j * sizeof(int));
 
 	if (s == NULL)
 		return (NULL);
