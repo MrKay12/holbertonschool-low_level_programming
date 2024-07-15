@@ -4,7 +4,7 @@
 /**
  *array_iterator - function
  *
- *@:size: var
+ *@size: var
  *@array: 1st pointer
  *@action: 2nd pointer
  *
