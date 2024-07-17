@@ -32,12 +32,12 @@ int main(int argc, char *argv[])
 		return (99);
 	}
 
-	if ((*argv[2] == '/' || *argv[2] == '%') && b == 0)
+	if ((*argv[2] == '/' || *argv[2] == '%') && j == 0)
 	{
 		printf("Error\n");
 		return (100);
 	}
 
-	printf("%d\n", opr(a, b));
+	printf("%d\n", opr(i, j));
 	return (0);
 }
