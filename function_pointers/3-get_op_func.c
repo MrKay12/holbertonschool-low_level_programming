@@ -1,7 +1,9 @@
 #include "calc.h"
 
 /**
- * get_op_func: function
+ * get_op_func - function
+ *
+ * Description: print pos or neg
  *
  * @s: pointer
  *
