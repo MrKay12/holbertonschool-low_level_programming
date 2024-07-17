@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
-	opr = get_op_function(argv[2]);
+	opr = get_op_func(argv[2]);
 
 	if (opr == NULL)
 	{
