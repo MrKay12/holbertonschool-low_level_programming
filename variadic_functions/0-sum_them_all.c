@@ -7,7 +7,7 @@
  *
  * @n: var
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 
 int sum_them_all(const unsigned int n, ...)
