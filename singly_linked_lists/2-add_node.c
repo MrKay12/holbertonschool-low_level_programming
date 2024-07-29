@@ -1,3 +1,4 @@
+#include <string.h>
 #include "lists.h"
 
 /**
@@ -28,7 +29,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (n == NULL)
 		return (NULL);
 
-	n->str = nster;
+	n->str = nstr;
 	n->len = len;
 	n->next = *head;
 
