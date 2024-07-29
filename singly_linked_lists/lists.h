@@ -7,12 +7,20 @@
 #include <stdarg.h>
 #include <stddef.h>
 
-typedef struct list 
+/**
+ *struct list - typedef
+ *
+ *@str: string pointer
+ *@len: length
+ *@next: pointer
+ */
+
+typedef struct list
 {
 	char *str;
 	unsigned int len;
 	struct list *next;
-}list_t;
+} list_t;
 
 int _putchar(char c);
 size_t print_list(const list_t *h);
