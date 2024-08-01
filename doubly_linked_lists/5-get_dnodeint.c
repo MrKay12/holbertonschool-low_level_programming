@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - function
+ * get_dnodeint_at_index - function
  *
  *@head: pointer to pointer
- *@n: integer
+ *@index: index
  *
  *Return: Always 0
  */
