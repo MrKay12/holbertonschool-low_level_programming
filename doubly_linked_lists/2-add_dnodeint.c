@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * print_dlistint - function
+ * add_dnodeint - function
  *
- *@h: pointer
+ *@head: pointer to pointer
+ *@n: integer
  *
  *Return: Always 0
  */
