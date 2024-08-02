@@ -10,8 +10,23 @@
 
 void print_binary(unsigned long int n)
 {
-	if (n >> 1)
-		print_binary(n >> 1);
+	int b = sizeof(n) * 8 - 1;
+	int i = 1;
 
-	printf("%lu", n & 1);
+	while (b >= 0)
+	{
+		if ((n >> b) & 1)
+		{
+			printf("1");
+			i = 0;
+		}
+
+		else if (!i)
+			printf("0");
+
+		b--;
+	}
+
+	if (i)
+		printf("0");
 }
