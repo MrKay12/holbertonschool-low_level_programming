@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * binary_to_uint - function
+ * print_binary - function
  *
- *@b: pointer
+ *@n: var
  *
  *Return: Always 0
  */
