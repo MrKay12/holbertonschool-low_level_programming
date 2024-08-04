@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - function
+ * append_text_to_file - function
  *
  *@filename: all in the name
  *@text_content: same thing
@@ -25,7 +25,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (text_content != NULL)
 	{
 		w = write(d, text_content, strlen(text_content));
-		
+
 		if (w == -1)
 		{
 			close(d);
